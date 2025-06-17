@@ -25,6 +25,7 @@ body {
     font-family: 'Pacifico', sans-serif;
     padding: 1vh;
     transform: scale(2);
+    overflow: default;
 }
 button {
     background: #1f6feb;
