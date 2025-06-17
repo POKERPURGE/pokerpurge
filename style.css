@@ -24,6 +24,7 @@ body {
 .pac {
     font-family: 'Pacifico', sans-serif;
     padding: 1vh;
+    transform: scale(2);
 }
 button {
     background: #1f6feb;
