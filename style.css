@@ -30,12 +30,12 @@ button {
     outline: 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 1vw;
+    padding: 1vh;
 }
 .buttons {
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    width: 50vw;
 }
