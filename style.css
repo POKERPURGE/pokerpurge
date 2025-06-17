@@ -4,10 +4,12 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    color: #fff;
+    overflow: clip;
 }
 body {
-    -webkit-backdrop-filter: blur(10vw);
-    backdrop-filter: blur(10vw);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
     background: url(minc.png);
     background-size: cover;
 }
@@ -17,7 +19,14 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    transform: scale(2);
 }
 .pac {
     font-family: 'Pacifico', sans-serif;
+}
+button {
+    background: #1f6feb;
+    outline: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
